@@ -1,0 +1,74 @@
+.form-question__inner {
+    position: relative;
+    height: 217px;
+    padding: 40px 0;
+    border-radius: 10px;
+    background: #26213f;
+}
+.form-question {
+    margin-top: 60px;
+}
+.form-question__title {
+    font-family: TT Commons;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 41px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #fff;
+}
+.form-question__form {
+    display: flex;
+    justify-content: center;
+    width: 56%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.form-question__input {
+    font-family: TT Commons;
+font-size: 16px;
+font-weight: 400;
+font-style: normal;
+line-height: 22px;
+padding: 15px;
+color: #000;
+border: 1px solid #26213f;
+border-radius: 4px;
+width: 70%;
+    margin-right: 20px;
+    order: 0;
+}
+.form-question__label {
+    order: 2;
+    font-family: TT Commons;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 14px;
+    padding: 3px 0 0 20px;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+}
+.form-question__submit {
+    flex-grow: 1;
+} 
+.form-question__submit {
+    padding: 14px 45px 12px 30px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border: 0;
+    border-radius: 8px;
+    outline: 0;
+    background: #d22730;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: right;
+    color: #fff;
+    padding-right: 30px;
+    padding-left: 30px;
+}

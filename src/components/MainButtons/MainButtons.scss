@@ -1,0 +1,34 @@
+.main-buttons {
+    margin: 40px 0;
+}
+.main-buttons__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-buttons-item {
+    width: 31.5%;
+    min-height: 117px;
+    padding: 26px 25px 25px;
+    cursor: pointer;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    text-decoration: none;
+    border-radius: 10px;
+    background: #eef1fc;
+    display: flex;
+    align-items: center;
+}
+
+.main-buttons-item-name {
+    font-family: TT Commons;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 30px;
+    text-decoration: none;
+    color: #504587;
+}
+.main-buttons-item-img {
+    margin-right: 15px;
+}

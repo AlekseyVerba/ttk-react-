@@ -1,0 +1,12 @@
+.guide-item__docs {
+    display: flex;
+    justify-content: space-between;
+}
+.guide-item__doc {
+    width: 20%;
+    text-align: center;
+    img {
+        width: 57px;
+        height: 70px;
+    }
+}

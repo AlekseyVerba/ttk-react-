@@ -1,0 +1,78 @@
+.modal-contact {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.685);
+    z-index: 1000;
+}
+.modal-contact__content {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    width: 30%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px 36px 10px;
+    overflow: auto;
+}
+.modal-contact__title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #504587;
+    text-align: left;
+}
+.modal-contact__label {
+    font-family: TT Commons;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+    color: #000;
+    display: block;
+}
+.modal-contact__wrapper-radios {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modal-contact__input {
+    font-family: TT Commons;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    padding: 13px 15px 9px;
+    border: 1px solid #cecaca;
+    border-radius: 4px;
+}
+.button--submit {
+    font-family: TT Commons;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+    padding: 12px 17px 9px;
+    cursor: pointer;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+    border-radius: 7px;
+    outline: 0;
+    background: #26213f !important;
+    width: 100%;
+    margin-top: 25px;
+}
+.modal-contact__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+}

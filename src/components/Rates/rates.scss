@@ -1,0 +1,194 @@
+.rates {
+    margin: 60px 0
+}
+.rates__list {
+    display: flex;   
+}
+.rates__item-title + .rates__item-title {
+    margin-left: 15px;
+}
+.rates__item-title {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: #504587;
+    opacity: 0.25;
+    cursor: pointer;
+}
+.rates__item-title--active {
+    color: #000000;
+    opacity: 1;
+    position: relative;
+}
+
+.rates__item-title--active::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: -10px;
+    background: #D22730;
+}
+.rates__wrapper-content {
+    margin-top: 30px;
+}
+.rates__content-item {
+    display: none;
+}
+.rates__content-item--active {
+    display: block;
+}
+.rates__item {
+    position: relative;
+    width: 21.75%;
+    min-height: 516px;
+    margin-right: 36px;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.336);
+    font-family: TT Commons;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 18px;
+    color: #000;
+    margin-top: 36px;
+    &--constructor {
+        min-height: 450px;
+        margin-bottom: 35px;
+    }
+}
+.rates__item.rates__item--popular {
+    position: relative;
+    &::after {
+        content: "Популярная";
+        background: "";
+        font-family: TT Commons;
+    font-size: 12px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 14px;
+    position: absolute;
+    top: 111px;
+    right: -64px;
+    padding: 5px 5px 1px;
+    -webkit-transform: rotate(
+90deg
+);
+    transform: rotate(
+90deg
+);
+    letter-spacing: .075em;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px 5px 0 0;
+    background: #d22730;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    }
+}
+.rates__items {
+    display: none;
+    justify-content: space-between;
+}
+.rates__items--active {
+    display: flex;
+    flex-wrap: wrap;
+}
+.rates__item-header {
+    font-family: TT Commons;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 30px;
+    padding: 23px 20px 15px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    background: #d22730;
+}
+.rates__item-body {
+    padding: 16px 20px;
+}
+.rates__item-subtitle {
+    margin-bottom: 10px;
+}
+.rates__item-price-current {
+    font-size: 36px;
+    font-weight: 600;
+    color: #d22730;
+}
+.rates__item-total {
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 25px;
+    margin-left: 10px;
+    color: #504587;
+}
+.rates__item-speed {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    list-style: 18px;
+}
+.rates__item-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.rates__item-footer-link {
+    margin-bottom: 10px;
+    font-family: TT Commons;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+    display: block;
+    margin-bottom: 22px;
+    -webkit-transition: .2s all;
+    transition: .2s all;
+    text-align: center;
+    text-decoration: none;
+    color: #26213f;
+}
+.rates__item-button {
+    font-family: TT Commons;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+    padding: 12px 17px 9px;
+    cursor: pointer;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+    border-radius: 7px;
+    outline: 0;
+    background: #26213f;
+    padding: 14px 17px 12px;
+    width: 100%;
+}
+.rates__item-toggle {
+    position: absolute;
+    bottom: -54px;
+    cursor: pointer;
+    left: 50%;
+    background:transparent;
+    border: none;
+    outline: none;
+    transform: translateX(-50%);
+}
+.rates__content-item--item--active {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

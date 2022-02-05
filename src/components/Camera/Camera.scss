@@ -1,0 +1,56 @@
+.youtube-container {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    padding-top: 30px;
+    padding-bottom: 56.25%;
+    margin-bottom: 20px;
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+} 
+.camera__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.camera__left {
+    width: 70%;
+}
+.camera__right {
+    width: 28%;
+}
+.form-white__title {
+    font-family: TT Commons;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: black;
+}
+
+.form-white__label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+.form-white__submit {
+    width: 100%;
+    font-family: TT Commons;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+    padding: 12px 17px 9px;
+    cursor: pointer;
+    transition: .3s all;
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+    border-radius: 7px;
+    outline: 0;
+    background: #26213f;
+}

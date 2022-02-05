@@ -1,0 +1,129 @@
+.info-panel__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.info-panel__left {
+    width: 60%;
+}
+.info-panel__right {
+    width: 36%;
+}
+.info-panel__left-titles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-panel__left-title {
+    font-family: TT Commons;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 30px;
+    margin-bottom: 20px;
+    opacity: .25;
+    color: #504587;
+}
+.info-panel__left-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 22px 20px 16px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border: 1px solid #cecaca;
+    border-radius: 10px;
+    background: #fff;
+    & + & {
+        margin-top: 20px;
+    }
+}
+.info-panel__left-list-item-name {
+    font-family: TT Commons;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 25px;
+    color: #000;
+}
+.info-panel__left-list-item-price {
+    font-family: TT Commons;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 25px;
+    color: #000;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: right;
+    color: #d22730;
+}
+
+.info-panel__right {
+    padding: 52px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(122, 118, 118, 0.753);
+}
+.info-panel__right-title {
+    font-family: TT Commons;
+    font-size: 40px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 46px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #504587;
+}
+.info-panel__right-list-item {
+    display: flex;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 17px 20px 10px;
+    border: 1px solid #cecaca;
+    border-radius: 10px;
+    background: #fff;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.info-panel__right-list-item {
+    font-family: TT Commons;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 25px;
+    color: #000;
+}
+.info-panel__right-list-item-price {
+    font-size: 36px;
+    line-height: 41px;
+    text-align: right;
+    color: #26213f;
+}
+.info-panel__send {
+    font-family: TT Commons;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 23px;
+    padding: 12px 17px 9px;
+    cursor: pointer;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+    text-decoration: none;
+    color: #fff;
+    border: 0;
+    border-radius: 7px;
+    outline: 0;
+    background: #26213f;
+    margin-top: 30px;
+    padding: 15px 17px 11px;
+    width: 100%;
+}

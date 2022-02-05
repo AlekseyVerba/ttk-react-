@@ -1,0 +1,53 @@
+.services__inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.services__item {
+    width: 31.5%;
+    margin-top: 40px;
+    // padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(130, 143, 169, 0.3);
+    border-radius: 10px;
+}
+.services__item-img {
+    padding: 24px;
+}
+.services__item-info {
+    padding: 0 30px 30px 30px;
+}
+.services__item-name {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 30px;
+    color: #504587;
+}
+.services__item-description {
+    margin-bottom: 60px;
+    font-size: 16px;
+line-height: 18px;
+
+/* черный */
+
+color: #000000;
+
+}
+.btn--order {
+    font-size: 20px;
+line-height: 23px;
+
+/* белый */
+
+color: #FFFFFF;
+background: #26213F;
+border-radius: 8px;
+padding: 14px 30px 12px;
+margin: 0 auto;
+margin-top: 30px;
+cursor: pointer;
+}
+.services__wrapper-btn {
+    text-align: center;
+}

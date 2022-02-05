@@ -1,0 +1,38 @@
+.new__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.new__left {
+    width: 70%;
+}
+.new__right {
+    width: 25%;
+    // margin-right: 90px;
+    margin-top: 60px;
+}
+.new__item {
+    min-height: 294px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.301);
+    width: 100%;
+    img {
+        height: 126px;
+        width: 100%;
+    }
+}
+.new__item + .new__item {
+    margin-top: 36px;
+}
+.new__item-body {
+    padding: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+.new__item-tilte {
+    margin-bottom: 15px;
+    display: block;
+    font-family: TT Commons;
+    font-size: 26px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 30px;
+    color: #26213f;
+}

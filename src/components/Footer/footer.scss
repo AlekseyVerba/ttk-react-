@@ -1,0 +1,44 @@
+.footer {
+    padding: 40px 10px;
+    background: #26213f;
+    margin-top: 60px;
+    padding-bottom: 120px;
+}
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo-up {
+    display: block;
+}
+.footer__logo-down {
+    display: block;
+    margin-top: 10px;
+}
+.footer__list-item + .footer__list-item {
+    margin-top: 10px;
+}
+.footer__list-item a {
+    font-family: TT Commons;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 21px;
+    text-decoration: none;
+    color: #fff;
+}
+address span {
+    display: block;
+    font-family: TT Commons;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+/* белый */
+
+color: #FFFFFF;
+}
+.footer__social a + a {
+    margin-left: 10px;
+}
